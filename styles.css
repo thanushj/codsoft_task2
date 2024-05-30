@@ -1,0 +1,165 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto auto;
+}
+
+header {
+    background: #090584;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+header img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+main {
+    padding: 40px 0;
+}
+
+section {
+    margin-bottom: 60px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+section p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #666;
+}
+
+#about img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #e2e2e2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.service-box {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-box h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    animation: 3s ease-in 1s infinite reverse both running slidein;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+@media (min-width: 768px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #skills li {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+    }
+}
